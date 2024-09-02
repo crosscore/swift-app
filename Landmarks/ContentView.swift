@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         HStack {
             Text("Turtle Rock")
-                .font(.title)
+                .font(.title).foregroundColor(.green)
         }
     }
 }
